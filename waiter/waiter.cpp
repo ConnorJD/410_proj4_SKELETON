@@ -17,7 +17,7 @@ Waiter::~Waiter()
 int Waiter::getNext(ORDER &anOrder){
 	return myIO.getNext(anOrder);
 }
-
+//Be waiter class
 void Waiter::beWaiter() {
 	ORDER order;
 	while(getNext(order) == SUCCESS) {
